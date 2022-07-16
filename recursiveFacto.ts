@@ -1,4 +1,4 @@
-const recursiveFacto=(n:number)=>{
+const recursiveFacto=(n:number):number=>{
     if(n==0){
         return 1;
     }
