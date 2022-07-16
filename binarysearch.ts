@@ -2,7 +2,7 @@ const binarySearch=(array:number[],target:number)=>{
     let left:number=0;
     let right:number=array.length-1;
 
-    for (let index = 0; index < array.length; index++) {
+    while(right>=left) {
        let middle:number=Math.floor((left+right)/2);
        console.log(left+""+right);
        console.log(middle);

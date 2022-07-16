@@ -1,7 +1,7 @@
 var binarySearch = function (array, target) {
     var left = 0;
     var right = array.length - 1;
-    for (var index = 0; index < array.length; index++) {
+    while (right >= left) {
         var middle = Math.floor((left + right) / 2);
         console.log(left + "" + right);
         console.log(middle);
