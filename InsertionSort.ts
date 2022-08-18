@@ -3,7 +3,7 @@ function InserstionSort(arr){
     for(let i:number=1;i<arr.length;i++){
         let j=i-1;//1 
         console.log(i);
-        let numToInsert=arr[i]; 5
+        let numToInsert=arr[i]; 
         while(j>0 && arr[j]>numToInsert){
             console.log(i);
             arr[j+1]=arr[j];
